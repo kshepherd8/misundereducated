@@ -19,6 +19,8 @@ activate the virtual environment.
 
  > heroku local
 
+ Note: `heroku local` is not as good at rendering Google fonts as `gunicorn`
+
 ## Deploying to Heroku
 
  > heroku login
