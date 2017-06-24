@@ -28,4 +28,6 @@ activate the virtual environment.
  You only need to do this once:
  > heroku git:remote -a <whatever you named your app>
 
+ Then to deploy:
+
  > git push heroku master 
