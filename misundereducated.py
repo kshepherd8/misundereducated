@@ -6,5 +6,4 @@ app = Flask(__name__)
 @app.route('/')
 def misundereducated():
     ##return render_template('templates/index.html')
-    ##return render_template('index.html')
-    return "Hello"
+    return render_template('index.html')
