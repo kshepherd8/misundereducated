@@ -8,9 +8,18 @@
     <style>
         body {
             background-image: url("{{ url_for('static', filename='images/P1380074.jpg')}}");
-            background-size: cover;
-
+            background-size: 100%;
+            background-repeat: no-repeat;
         }
+        @media only screen and (max-width: 1200px) {
+        body {
+            background-size: 1200px;
+        } }
+
+        @media only screen and (max-width: 800px) and (max-height: 500px) {
+        body {
+            background-size: 800px;
+        } }
     </style>
     <body>
         <div class="container">
