@@ -5,7 +5,14 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='styles/mis-style.css') }}">
         <link href='http://fonts.googleapis.com/css?family=Cutive+Mono:400' rel='stylesheet' type='text/css'>
     </head>
-    <body style="background-color:#fff6db">
+    <style>
+        body {
+            background-image: url("{{ url_for('static', filename='images/P1380074.jpg')}}");
+            background-size: cover;
+
+        }
+    </style>
+    <body>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
